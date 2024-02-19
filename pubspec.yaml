@@ -1,0 +1,49 @@
+name: breakfeast
+description: A Flutter app for ordering breakfast.
+publish_to: 'none'
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.13.1"
+  flutter_lints: ^3.0.1
+  launcher_name: ^1.0.2
+
+flutter_launcher_icons:
+  image_path: "assets/icons/icons.jpg"
+  android: true
+  ios: true
+
+launcher_name:
+  default: "Breakfeast"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: fonts/Poppins-SemiBold.ttf
+          weight: 600
